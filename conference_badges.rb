@@ -19,7 +19,7 @@ def assign_rooms(array)
   room_assignments
 end
 
-def printer(assign_rooms(array), batch_badge_creator(array))
+def printer(assign_rooms, batch_badge_creator)
   puts batch_badge_creator
   puts assign_rooms
   rooms = assign_rooms(array)
