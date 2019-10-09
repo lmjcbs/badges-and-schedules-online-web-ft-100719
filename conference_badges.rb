@@ -22,7 +22,9 @@ end
 def printer(array)
   var1 = batch_badge_creator(array)
   var2 = assign_rooms(array)
-  var.each_with_index
+  var.each_with_index do |name, i|
+
+  end
   rooms = assign_rooms(array)
   rooms.each do |room|
     puts room
