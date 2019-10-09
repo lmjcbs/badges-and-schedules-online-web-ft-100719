@@ -26,8 +26,4 @@ def printer(array)
     puts var1[i]
     puts var2[i]
   end
-  rooms = assign_rooms(array)
-  rooms.each do |room|
-    puts room
-  end
 end
