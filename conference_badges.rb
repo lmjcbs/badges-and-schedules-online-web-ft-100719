@@ -12,6 +12,7 @@ def batch_badge_creator(array)
 end
 
 def assign_rooms(array)
+  room_assignments = Array.new
   array.each_with_index do |speaker, i|
 
   end
